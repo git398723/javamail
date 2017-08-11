@@ -47,7 +47,6 @@ import java.util.concurrent.CountDownLatch;
 import javax.mail.Folder;
 import javax.mail.Session;
 import javax.mail.Store;
-import javax.mail.Message;
 import javax.mail.FetchProfile;
 
 import com.sun.mail.test.TestServer;

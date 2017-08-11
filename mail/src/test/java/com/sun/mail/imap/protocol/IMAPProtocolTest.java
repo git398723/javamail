@@ -41,7 +41,6 @@
 package com.sun.mail.imap.protocol;
 
 import java.io.*;
-import java.nio.charset.Charset;
 import java.util.Properties;
 import com.sun.mail.test.AsciiStringInputStream;
 import static org.junit.Assert.assertEquals;

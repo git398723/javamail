@@ -42,7 +42,6 @@ package com.sun.mail.imap;
 
 import java.io.IOException;
 import java.util.Properties;
-import java.util.StringTokenizer;
 import java.util.Set;
 import java.util.HashSet;
 
@@ -58,7 +57,6 @@ import com.sun.mail.test.TestServer;
 import org.junit.Test;
 import org.junit.Rule;
 import org.junit.rules.Timeout;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.fail;

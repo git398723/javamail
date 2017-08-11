@@ -42,9 +42,7 @@ package javax.mail.internet;
 
 import com.sun.mail.test.AsciiStringInputStream;
 import com.sun.mail.test.NullOutputStream;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.util.Properties;
 
 import javax.mail.Session;

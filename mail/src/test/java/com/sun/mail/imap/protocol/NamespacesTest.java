@@ -40,8 +40,6 @@
 
 package com.sun.mail.imap.protocol;
 
-import com.sun.mail.iap.ParsingException;
-
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 

@@ -40,7 +40,6 @@
 
 package javax.mail.internet;
 
-import javax.mail.MessagingException;
 import javax.mail.internet.MimeBodyPart;
 
 import org.junit.*;

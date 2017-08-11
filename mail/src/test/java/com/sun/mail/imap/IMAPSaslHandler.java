@@ -41,8 +41,6 @@
 package com.sun.mail.imap;
 
 import java.io.IOException;
-import java.util.StringTokenizer;
-import java.util.logging.Logger;
 import java.util.logging.Level;
 
 import javax.security.sasl.*;

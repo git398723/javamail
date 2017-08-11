@@ -41,8 +41,6 @@
 package com.sun.mail.imap;
 
 import javax.mail.*;
-import javax.mail.internet.*;
-import com.sun.mail.util.*;
 import com.sun.mail.iap.*;
 import com.sun.mail.imap.protocol.*;
 

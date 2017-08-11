@@ -40,8 +40,6 @@
 
 package com.sun.mail.util;
 
-import java.io.ByteArrayInputStream;
-import java.nio.charset.Charset;
 import java.util.Properties;
 
 import javax.mail.Session;

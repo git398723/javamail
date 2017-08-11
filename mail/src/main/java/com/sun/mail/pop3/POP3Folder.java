@@ -51,8 +51,6 @@ import java.lang.reflect.Constructor;
 
 import com.sun.mail.util.LineInputStream;
 import com.sun.mail.util.MailLogger;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * A POP3 Folder (can only be "INBOX").

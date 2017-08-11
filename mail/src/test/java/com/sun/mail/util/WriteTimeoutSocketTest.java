@@ -43,7 +43,6 @@ package com.sun.mail.util;
 import java.lang.reflect.*;
 
 import java.io.IOException;
-import java.io.InterruptedIOException;
 import java.util.Properties;
 import java.util.List;
 import java.util.ArrayList;

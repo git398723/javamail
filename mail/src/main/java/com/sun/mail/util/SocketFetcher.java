@@ -51,7 +51,6 @@ import java.util.logging.Level;
 import java.security.cert.*;
 import javax.net.*;
 import javax.net.ssl.*;
-import javax.security.auth.x500.X500Principal;
 
 /**
  * This class is used to get Sockets. Depending on the arguments passed

@@ -41,7 +41,6 @@
 package javax.mail.internet;
 
 import javax.mail.*;
-import java.io.*;
 import java.util.Enumeration;
 
 /**

@@ -38,13 +38,12 @@
  * holder.
  */
 
-package javax.mail.internet.search;
+package javax.mail.search;
 
 import java.io.*;
 import java.util.Date;
 
 import javax.mail.*;
-import javax.mail.search.*;
 import javax.mail.internet.*;
 
 import org.junit.Test;

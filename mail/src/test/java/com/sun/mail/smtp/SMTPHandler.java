@@ -44,7 +44,6 @@ import java.io.*;
 import java.util.StringTokenizer;
 import java.util.Set;
 import java.util.HashSet;
-import java.util.logging.Logger;
 import java.util.logging.Level;
 
 import com.sun.mail.test.ProtocolHandler;

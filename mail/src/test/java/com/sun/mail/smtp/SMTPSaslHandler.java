@@ -42,7 +42,6 @@ package com.sun.mail.smtp;
 
 import java.io.IOException;
 import java.util.StringTokenizer;
-import java.util.logging.Logger;
 import java.util.logging.Level;
 
 import javax.security.sasl.*;

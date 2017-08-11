@@ -41,7 +41,6 @@
 package com.sun.mail.imap;
 
 import java.io.IOException;
-import java.io.Reader;
 import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.nio.charset.StandardCharsets;

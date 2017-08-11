@@ -42,7 +42,6 @@ package com.sun.mail.imap.protocol;
 
 import java.io.*;
 import java.util.*;
-import java.text.*;
 import java.lang.reflect.*;
 import java.util.logging.Level;
 import java.nio.charset.StandardCharsets;

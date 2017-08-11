@@ -42,7 +42,6 @@ package javax.mail.internet;
 
 import java.io.*;
 import java.util.*;
-import javax.mail.*;
 import javax.mail.internet.HeaderTokenizer;
 import javax.mail.internet.ParseException;
 

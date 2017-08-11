@@ -40,7 +40,6 @@
 
 package com.sun.mail.imap;
 
-import java.io.*;
 import javax.mail.*;
 import com.sun.mail.imap.protocol.*;
 import com.sun.mail.iap.ProtocolException;

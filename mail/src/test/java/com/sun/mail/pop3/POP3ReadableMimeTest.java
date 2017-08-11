@@ -56,8 +56,6 @@ import com.sun.mail.util.ReadableMime;
 import com.sun.mail.test.TestServer;
 
 import org.junit.Test;
-import org.junit.BeforeClass;
-import org.junit.AfterClass;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 

@@ -43,8 +43,6 @@ package com.sun.mail.auth;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.Map;
-import java.security.Provider;
-import java.security.Security;
 import javax.security.sasl.*;
 import javax.security.auth.callback.*;
 

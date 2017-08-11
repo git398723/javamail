@@ -42,8 +42,6 @@ package javax.mail.internet;
 
 import java.util.Properties;
 import javax.mail.*;
-import javax.mail.internet.*;
-
 import org.junit.*;
 import static org.junit.Assert.assertEquals;
 

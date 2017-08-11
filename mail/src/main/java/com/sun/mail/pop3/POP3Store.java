@@ -40,14 +40,11 @@
 
 package com.sun.mail.pop3;
 
-import java.util.Properties;
 import java.util.logging.Level;
 import java.lang.reflect.*;
 
 import javax.mail.*;
-import javax.mail.internet.*;
 import java.io.File;
-import java.io.PrintStream;
 import java.io.IOException;
 import java.io.EOFException;
 import java.util.Collections;

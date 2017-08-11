@@ -42,7 +42,6 @@ package javax.mail;
 
 import java.util.EventListener;
 import java.util.Vector;
-import java.util.Queue;
 import java.util.WeakHashMap;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;

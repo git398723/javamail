@@ -44,7 +44,6 @@ import javax.mail.*;
 import javax.activation.*;
 import java.io.*;
 import java.net.UnknownServiceException;
-import com.sun.mail.util.PropUtil;
 import com.sun.mail.util.FolderClosedIOException;
 
 /**

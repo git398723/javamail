@@ -40,7 +40,6 @@
 
 package com.sun.mail.pop3;
 
-import java.io.IOException;
 import java.util.Properties;
 
 import javax.mail.Folder;
@@ -54,9 +53,6 @@ import javax.mail.MessagingException;
 import com.sun.mail.test.TestServer;
 
 import org.junit.Test;
-import org.junit.BeforeClass;
-import org.junit.AfterClass;
-import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.fail;
 
 /**

@@ -42,7 +42,6 @@ package javax.mail.internet;
 
 import java.io.UnsupportedEncodingException;
 
-import javax.mail.MessagingException;
 import javax.mail.internet.MimeBodyPart;
 
 import org.junit.*;

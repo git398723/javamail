@@ -40,8 +40,6 @@
 
 package javax.mail;
 
-import java.io.*;
-import java.net.*;
 import java.util.*;
 import javax.mail.event.*;
 

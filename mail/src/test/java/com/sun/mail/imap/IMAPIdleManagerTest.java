@@ -45,16 +45,10 @@ import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-
 import javax.mail.Session;
-import javax.mail.Store;
 import javax.mail.Folder;
 import javax.mail.FetchProfile;
 import javax.mail.MessagingException;
-import javax.mail.event.ConnectionAdapter;
-import javax.mail.event.ConnectionEvent;
-
 import com.sun.mail.test.TestServer;
 
 import org.junit.Test;

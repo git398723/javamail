@@ -42,7 +42,6 @@ package javax.mail.internet;
 
 import com.sun.mail.test.AsciiStringInputStream;
 import java.io.*;
-import java.nio.charset.Charset;
 import java.util.Properties;
 import java.util.Enumeration;
 

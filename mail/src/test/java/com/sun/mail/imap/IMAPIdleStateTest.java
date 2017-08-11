@@ -45,8 +45,6 @@ import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
 
 import javax.mail.Session;
-import javax.mail.Store;
-
 import com.sun.mail.imap.IMAPStore;
 import com.sun.mail.test.TestServer;
 

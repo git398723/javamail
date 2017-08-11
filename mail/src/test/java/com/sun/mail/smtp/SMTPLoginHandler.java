@@ -43,12 +43,9 @@ package com.sun.mail.smtp;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.StringTokenizer;
-import java.util.logging.Logger;
 import java.util.logging.Level;
 
-import com.sun.mail.util.BASE64EncoderStream;
 import com.sun.mail.util.BASE64DecoderStream;
-import com.sun.mail.util.ASCIIUtility;
 
 /**
  * Handle connection with LOGIN or PLAIN authentication.

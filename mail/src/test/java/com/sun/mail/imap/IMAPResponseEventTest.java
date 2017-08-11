@@ -40,7 +40,6 @@
 
 package com.sun.mail.imap;
 
-import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

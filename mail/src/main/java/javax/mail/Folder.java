@@ -40,7 +40,6 @@
 
 package javax.mail;
 
-import java.lang.*;
 import java.util.ArrayList;
 import java.util.EventListener;
 import java.util.List;

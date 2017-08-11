@@ -40,7 +40,6 @@
 
 package com.sun.mail.smtp;
 
-import java.io.*;
 import java.util.*;
 import java.util.logging.Level;
 import javax.security.sasl.*;

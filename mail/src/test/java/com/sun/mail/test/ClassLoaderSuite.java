@@ -44,9 +44,6 @@ import java.lang.annotation.*;
 import java.net.URL;
 import java.net.MalformedURLException;
 import java.net.URLClassLoader;
-import java.util.List;
-import java.util.ArrayList;
-
 import org.junit.runners.Suite;
 import org.junit.runners.ParentRunner;
 import org.junit.runners.model.InitializationError;

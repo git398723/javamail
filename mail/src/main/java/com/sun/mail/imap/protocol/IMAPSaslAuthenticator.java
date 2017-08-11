@@ -47,7 +47,6 @@ import javax.security.sasl.*;
 import javax.security.auth.callback.*;
 
 import com.sun.mail.iap.*;
-import com.sun.mail.imap.*;
 import com.sun.mail.util.*;
 
 /**

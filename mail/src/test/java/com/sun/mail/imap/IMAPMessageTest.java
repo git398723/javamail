@@ -43,10 +43,6 @@ package com.sun.mail.imap;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.Properties;
-import java.util.StringTokenizer;
-import java.util.Set;
-import java.util.HashSet;
-
 import javax.mail.Folder;
 import javax.mail.Session;
 import javax.mail.Store;
@@ -62,8 +58,6 @@ import org.junit.Test;
 import org.junit.Rule;
 import org.junit.rules.Timeout;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.fail;
 
 /**

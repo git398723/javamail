@@ -41,14 +41,11 @@
 package javax.mail.internet;
 
 import com.sun.mail.test.AsciiStringInputStream;
-import java.io.*;
-import java.nio.charset.Charset;
 import java.util.Enumeration;
 
 import javax.mail.*;
 
 import org.junit.*;
-import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
 
 /**

@@ -1,3 +1,5 @@
+package javax.mail.internet;
+
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
  *
@@ -41,14 +43,10 @@
 import java.util.*;
 import java.io.*;
 import javax.mail.*;
-import javax.mail.event.*;
-import javax.mail.internet.*;
 import javax.mail.util.*;
 import javax.activation.*;
 
 import org.junit.*;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 /*
  * Test multipart parsing.

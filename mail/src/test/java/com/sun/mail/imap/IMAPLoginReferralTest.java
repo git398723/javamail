@@ -44,8 +44,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 import javax.mail.Session;
-import javax.mail.Store;
-
 import com.sun.mail.imap.ReferralException;
 
 import com.sun.mail.test.TestServer;

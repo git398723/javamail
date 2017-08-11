@@ -41,13 +41,11 @@
 package com.sun.mail.imap;
 
 import java.util.Date;
-import java.util.Vector;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.NoSuchElementException;
-import java.util.Locale;
 import java.util.logging.Level;
 import java.io.*;
 import java.net.SocketTimeoutException;

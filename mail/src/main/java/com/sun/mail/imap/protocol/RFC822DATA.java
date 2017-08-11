@@ -41,8 +41,7 @@
 package com.sun.mail.imap.protocol;
 
 import java.io.ByteArrayInputStream;
-import com.sun.mail.iap.*; 
-import com.sun.mail.util.ASCIIUtility;
+import com.sun.mail.iap.*;
 
 /**
  * The RFC822 response data item.

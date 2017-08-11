@@ -42,7 +42,6 @@ package com.sun.mail.pop3;
 
 import java.io.IOException;
 import java.util.StringTokenizer;
-import java.util.logging.Logger;
 import java.util.logging.Level;
 
 import com.sun.mail.test.ProtocolHandler;

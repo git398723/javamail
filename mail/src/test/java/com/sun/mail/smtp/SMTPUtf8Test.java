@@ -47,14 +47,12 @@ import java.util.StringTokenizer;
 import javax.mail.Session;
 import javax.mail.Message;
 import javax.mail.Transport;
-import javax.mail.AuthenticationFailedException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 import com.sun.mail.test.TestServer;
 
 import org.junit.Test;
-import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 

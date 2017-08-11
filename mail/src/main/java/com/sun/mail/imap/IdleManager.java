@@ -43,7 +43,6 @@ package com.sun.mail.imap;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 import java.net.Socket;
-import java.nio.*;
 import java.nio.channels.*;
 import java.util.*;
 import java.util.logging.*;
@@ -52,7 +51,6 @@ import java.util.concurrent.Executor;
 
 import javax.mail.*;
 
-import com.sun.mail.imap.protocol.IMAPProtocol;
 import com.sun.mail.util.MailLogger;
 
 /**

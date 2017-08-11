@@ -42,7 +42,6 @@ package javax.mail.internet;
 
 import javax.mail.*;
 import javax.activation.*;
-import java.lang.*;
 import java.io.*;
 import java.util.*;
 import java.text.ParseException;

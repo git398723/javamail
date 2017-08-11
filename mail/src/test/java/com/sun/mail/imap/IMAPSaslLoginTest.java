@@ -40,7 +40,6 @@
 
 package com.sun.mail.imap;
 
-import java.io.*;
 import java.util.Properties;
 
 import javax.mail.Session;

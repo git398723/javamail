@@ -57,7 +57,6 @@ import com.sun.mail.test.TestServer;
 import org.junit.Test;
 import org.junit.Rule;
 import org.junit.rules.Timeout;
-import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 /**

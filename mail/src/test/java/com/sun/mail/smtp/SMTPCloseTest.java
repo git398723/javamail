@@ -40,7 +40,6 @@
 
 package com.sun.mail.smtp;
 
-import java.io.IOException;
 import java.util.Properties;
 
 import javax.mail.Session;

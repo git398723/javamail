@@ -46,8 +46,6 @@ import java.util.StringTokenizer;
 import java.util.Map;
 
 import javax.mail.Session;
-import javax.mail.Store;
-
 import com.sun.mail.test.TestServer;
 
 import org.junit.Test;

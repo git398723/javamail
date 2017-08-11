@@ -45,7 +45,6 @@ import java.net.UnknownHostException;
 import java.util.Properties;
 
 import javax.mail.Session;
-import javax.mail.MessagingException;
 import javax.mail.internet.InternetAddress;
 
 import org.junit.*;

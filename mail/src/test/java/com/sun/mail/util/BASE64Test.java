@@ -42,9 +42,6 @@ package com.sun.mail.util;
 
 import java.io.*;
 import java.util.*;
-import javax.mail.*;
-import com.sun.mail.util.*;
-
 import org.junit.Test;
 import org.junit.Assert;
 

@@ -41,7 +41,6 @@
 package javax.mail.internet;
 
 import org.junit.*;
-import static org.junit.Assert.assertEquals;
 
 /**
  * Test that the "mail.mime.parameters.strict" System property

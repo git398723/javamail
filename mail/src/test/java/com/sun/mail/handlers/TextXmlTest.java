@@ -41,10 +41,8 @@
 package com.sun.mail.handlers;
 
 import java.io.*;
-import java.util.*;
 import java.awt.datatransfer.DataFlavor;
 import javax.activation.*;
-import javax.mail.*;
 import javax.mail.util.ByteArrayDataSource;
 import javax.xml.transform.stream.*;
 

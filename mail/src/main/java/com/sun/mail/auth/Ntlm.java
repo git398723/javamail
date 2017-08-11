@@ -44,9 +44,7 @@
 
 package com.sun.mail.auth;
 
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.io.PrintStream;
 import java.security.GeneralSecurityException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Locale;

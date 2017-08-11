@@ -44,15 +44,12 @@ import java.io.IOException;
 import java.util.Properties;
 
 import javax.mail.Session;
-import javax.mail.Store;
-
 import com.sun.mail.test.TestServer;
 
 import org.junit.Test;
 import org.junit.Rule;
 import org.junit.rules.Timeout;
 import static org.junit.Assert.fail;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
