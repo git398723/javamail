@@ -78,7 +78,6 @@ class Protocol {
     private Map<String, String> capabilities = null;
     private boolean pipelining;
     private boolean noauthdebug = true;	// hide auth info in debug output
-    private boolean traceSuspended;	// temporarily suspend tracing
 
     private static final int POP3_PORT = 110; // standard POP3 port
     private static final String CRLF = "\r\n";

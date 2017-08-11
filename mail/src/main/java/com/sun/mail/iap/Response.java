@@ -65,8 +65,6 @@ public class Response {
     protected Exception ex;
     protected boolean utf8;
 
-    private static final int increment = 100;
-
     // The first and second bits indicate whether this response
     // is a Continuation, Tagged or Untagged
     public final static int TAG_MASK 	 = 0x03;

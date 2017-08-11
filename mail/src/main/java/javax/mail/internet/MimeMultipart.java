@@ -615,7 +615,7 @@ public class MimeMultipart extends Multipart {
 	try {
 	    // Skip and save the preamble
 	    LineInputStream lin = new LineInputStream(in);
-	    StringBuffer preamblesb = null;
+	    StringBuilder preamblesb = null;
 	    String line;
 	    String lineSeparator = null;
 	    while ((line = lin.readLine()) != null) {
@@ -675,7 +675,7 @@ public class MimeMultipart extends Multipart {
 		    }
 		    // accumulate the preamble
 		    if (preamblesb == null)
-			preamblesb = new StringBuffer(line.length() + 2);
+			preamblesb = new StringBuilder(line.length() + 2);
 		    preamblesb.append(line).append(lineSeparator);
 		}
 	    }

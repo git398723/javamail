@@ -1742,7 +1742,6 @@ public class MimeMessage extends Message implements MimePart {
 		eliminateDuplicates(v,
 				InternetAddress.parse(alternates, false));
 	    // should we Cc all other original recipients?
-	    String replyallccStr = null;
 	    boolean replyallcc = false;
 	    if (session != null)
 		replyallcc = PropUtil.getBooleanSessionProperty(session,

@@ -915,7 +915,6 @@ public class InternetAddress extends Address implements Cloneable {
 			throw new AddressException("Missing '\"'", s, index);
 		    // didn't find matching quote, try again ignoring quotes
 		    // (e.g., ``<"@foo.com>'')
-		  outq:
 		    for (index = rindex + 1; index < length; index++) {
 			c = s.charAt(index);
 			if (c == '\\')	// XXX - is this needed?
