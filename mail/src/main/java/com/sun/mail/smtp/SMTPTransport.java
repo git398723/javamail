@@ -246,7 +246,7 @@ public class SMTPTransport extends Transport {
 	    new NtlmAuthenticator(),
 	    new OAuth2Authenticator()
 	};
-	StringBuffer sb = new StringBuffer();
+	StringBuilder sb = new StringBuilder();
 	for (int i = 0; i < a.length; i++) {
 	    authenticators.put(a[i].getMechanism(), a[i]);
 	    sb.append(a[i].getMechanism()).append(' ');
@@ -1145,21 +1145,20 @@ public class SMTPTransport extends Transport {
 	    try {
 		Class<?> sac = Class.forName(
 		    "com.sun.mail.smtp.SMTPSaslAuthenticator");
-		Constructor<?> c = sac.getConstructor(new Class<?>[] {
+		Constructor<?> c = sac.getConstructor(
 					SMTPTransport.class,
 					String.class,
 					Properties.class,
 					MailLogger.class,
 					String.class
-					});
+					);
 		saslAuthenticator = (SaslAuthenticator)c.newInstance(
-					new Object[] {
 					this,
 					name,
 					session.getProperties(),
 					logger,
 					serviceHost
-					});
+					);
 	    } catch (Exception ex) {
 		logger.log(Level.FINE, "Can't load SASL authenticator", ex);
 		// probably because we're running on a system without SASL
@@ -2609,7 +2608,7 @@ public class SMTPTransport extends Transport {
      * @since JavaMail 1.6.0
      */
     protected static String xtext(String s, boolean utf8) {
-	StringBuffer sb = null;
+	StringBuilder sb = null;
 	byte[] bytes;
 	if (utf8)
 	    bytes = s.getBytes(StandardCharsets.UTF_8);
@@ -2623,7 +2622,7 @@ public class SMTPTransport extends Transport {
 	    if (c < '!' || c > '~' || c == '+' || c == '=') {
 		// not printable ASCII
 		if (sb == null) {
-		    sb = new StringBuffer(s.length() + 4);
+		    sb = new StringBuilder(s.length() + 4);
 		    sb.append(s.substring(0, i));
 		}
 		sb.append('+');

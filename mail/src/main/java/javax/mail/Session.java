@@ -1021,7 +1021,7 @@ public final class Session {
 		    String currTuple = tuples.nextToken().trim();
 			
 		    // set the value of each attribute based on its key
-		    int sep = currTuple.indexOf("=");
+		    int sep = currTuple.indexOf('=');
 		    if (currTuple.startsWith("protocol=")) {
 			protocol = currTuple.substring(sep+1);
 		    } else if (currTuple.startsWith("type=")) {
@@ -1122,9 +1122,8 @@ public final class Session {
      * Load from the named file.
      */
     private void loadFile(String name, StreamLoader loader) {
-	InputStream clis = null;
-	try {
-	    clis = new BufferedInputStream(new FileInputStream(name));
+	
+	try (InputStream clis = new BufferedInputStream(new FileInputStream(name))) {
 	    loader.load(clis);
 	    logger.log(Level.CONFIG, "successfully loaded file: {0}", name);
 	} catch (FileNotFoundException fex) {
@@ -1135,11 +1134,6 @@ public final class Session {
 	} catch (SecurityException sex) {
 	    if (logger.isLoggable(Level.CONFIG))
 		logger.log(Level.CONFIG, "not loading file: " + name, sex);
-	} finally {
-	    try {
-		if (clis != null)
-		    clis.close();
-	    } catch (IOException ex) { }	// ignore it
 	}
     }
 

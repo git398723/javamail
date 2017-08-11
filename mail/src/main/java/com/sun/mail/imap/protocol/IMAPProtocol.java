@@ -983,21 +983,20 @@ public class IMAPProtocol extends Protocol {
 	    try {
 		Class<?> sac = Class.forName(
 		    "com.sun.mail.imap.protocol.IMAPSaslAuthenticator");
-		Constructor<?> c = sac.getConstructor(new Class<?>[] {
+		Constructor<?> c = sac.getConstructor(
 					IMAPProtocol.class,
 					String.class,
 					Properties.class,
 					MailLogger.class,
 					String.class
-					});
+					);
 		saslAuthenticator = (SaslAuthenticator)c.newInstance(
-					new Object[] {
 					this,
 					name,
 					props,
 					logger,
 					serviceHost
-					});
+					);
 	    } catch (Exception ex) {
 		logger.log(Level.FINE, "Can't load SASL authenticator", ex);
 		// probably because we're running on a system without SASL
